@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* fonts (installed via @fontsource) */
+@import "@fontsource/inter/400.css";
+@import "@fontsource/poppins/700.css";
+
+:root {
+  --primary: #C43E36;
+  --secondary: #FDF5EE;
+}
+
+/* global */
+body {
+  background-color: var(--secondary);
+  color: #1A1A1A;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
